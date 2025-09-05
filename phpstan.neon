@@ -1,0 +1,18 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+    - vendor/nesbot/carbon/extension.neon
+
+parameters:
+    paths:
+        - app/
+
+    # Level 5 as requested
+    level: 5
+
+    # Add ignoreErrors section when needed
+    # ignoreErrors:
+    #     - '#Pattern to ignore#'
+        
+    # Exclude paths if needed
+    # excludePaths:
+    #     - app/Console/Kernel.php
